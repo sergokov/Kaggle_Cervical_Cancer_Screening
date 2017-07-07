@@ -45,11 +45,11 @@ def make_dirs(path):
 if __name__ == '__main__':
     # fidx = '/home/ar/@Kaggle/01_Intel_&_MobileODT_Cervical_Cancer_Screening/data/train-x512-processed-stage2/00-data-original-proportions/idx.txt'
     # fidx = '/mnt/data6T/@Kaggle/01_Intel_&_MobileODT_Cervical_Cancer_Screening/data/test/02_test-x512/idx.txt'
-    fidx = '/home/ar/@Kaggle/01_Intel_&_MobileODT_Cervical_Cancer_Screening/data_additional/00_train_add-x512-original-proportions/idx.txt'
+    fidx = '/home/sergo/Work/Intel_Competition/data-original/idx-reduced.txt'
     wdir = os.path.dirname(fidx)
     # odir = '/home/ar/@Kaggle/01_Intel_&_MobileODT_Cervical_Cancer_Screening/data/train-x512-processed-stage2/01-data-512x512'
     # odir = '/mnt/data6T/@Kaggle/01_Intel_&_MobileODT_Cervical_Cancer_Screening/data/test/02_test-x512-bordered'
-    odir = '/home/ar/@Kaggle/01_Intel_&_MobileODT_Cervical_Cancer_Screening/data_additional/01_train_add-x512-original-bordered'
+    odir = '/home/sergo/Work/Intel_Competition/data-original-bordered'
     make_dirs(odir)
     outShape = (512, 512)
     #
